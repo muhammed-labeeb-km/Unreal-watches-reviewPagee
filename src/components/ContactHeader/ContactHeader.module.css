@@ -1,0 +1,28 @@
+.contact_section h1{
+    font-size: 48px;
+    max-width: 80%;
+    font-weight: 800;
+    color: #333; /* Initial color */
+    animation: monochromeFade 4s infinite;
+}
+.contact_section p{
+    margin-top: 18p;
+    font-size: 18px;
+    font-weight: 450;
+    font-family:monospace ;
+    color: rgb(100, 99, 99);
+}
+.contact_section{
+    -ms-text-combine-horizontal: 1000px;
+    margin: 0 auto;
+    margin-left: 399px;
+}
+
+@keyframes monochromeFade {
+    0%, 100% {
+        color: #000000; /* Initial color */
+    }
+    50% {
+        color: #767272; /* Transition color */
+    }
+}
